@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="wrapper-navbar">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../HomePage/home.html">
+                        <img src="../img/logo.png" alt="logo" width="150">
+                    </a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-margin">
+                            <a href="../HomePage/home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../MenagerPage/menager.html">Menager Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="form-input">
+            <div class="new-product">
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" name="name" id='title' required />
+                    <label for="name" class="form__label">Title...</label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" name="description" id='description' required />
+                    <label for="name" class="form__label">Description...</label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" name="price" id='price' required />
+                    <label for="name" class="form__label">Price...</label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" name="image" id='image' required />
+                    <label for="name" class="form__label">Image...</label>
+                </div>
+                <div class="category-div">
+                    <label>Category: </label>
+                    <select class="select-category" id="category"></select>
+                </div>
+                <div class="buttons">
+                    <a id="add-product">
+                        <span class="text">Add product</span>
+                        <span class="line -right"></span>
+                        <span class="line -top"></span>
+                        <span class="line -left"></span>
+                        <span class="line -bottom"></span>
+                      </a>
+                    <a id="update-product">
+                        <span class="text">Update product</span>
+                        <span class="line -right"></span>
+                        <span class="line -top"></span>
+                        <span class="line -left"></span>
+                        <span class="line -bottom"></span>
+                      </a>
+                </div>
+                <input type="hidden" id="product-id">
+                <h1 class="new-category-title">Add new category</h1>
+                <div class="new-category">
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Name" name="image" id='category-name' required />
+                        <label for="name" class="form__label">Category name...</label>
+                    </div>
+                    <div class="buttons">
+                        <a id="add-category">
+                            <span class="text">Add new category</span>
+                            <span class="line -right"></span>
+                            <span class="line -top"></span>
+                            <span class="line -left"></span>
+                            <span class="line -bottom"></span>
+                          </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="table-div">
+                <table id="table">
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>Category</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="footer-text">Powered by: Emanuel Jankovec</p>
+    </footer>
+
+    
+    <script src="menager.js"></script>
+    <script src="../HomePage/home.js"></script>
+</body>
+</html>

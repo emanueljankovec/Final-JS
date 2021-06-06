@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "title": "Les Paul - model - Moller Germany",
+      "description": "Električna gitara (6,žica) - zvuk se pojačava električnim putem pomoću elektromagneta (pickupa), tako da električna gitara za razliku od akustične ima tijelo načinjeno od punog drva. Elektroakustična gitara je zapravo akustična gitare sa šupljim tijelom ,popularna je kroz blues, rock i metal muziku.",
+      "price": 28600,
+      "image": "../img/lp-2.jpg",
+      "categoryId": 2,
+      "id": 1
+    },
+    {
+      "title": "Les Paul - model - Moller Germany",
+      "description": "Električna gitara (6,žica) - zvuk se pojačava električnim putem pomoću elektromagneta (pickupa), tako da električna gitara za razliku od akustične ima tijelo načinjeno od punog drva. Elektroakustična gitara je zapravo akustična gitare sa šupljim tijelom ,popularna je kroz blues, rock i metal muziku.",
+      "price": 18600,
+      "image": "../img/lp-2.jpg",
+      "likes": 3,
+      "categoryId": 2,
+      "id": 2
+    },
+    {
+      "title": "Les Paul - model - Moller Germany",
+      "description": "Električna gitara (6,žica) - zvuk se pojačava električnim putem pomoću elektromagneta (pickupa), tako da električna gitara za razliku od akustične ima tijelo načinjeno od punog drva. Elektroakustična gitara je zapravo akustična gitare sa šupljim tijelom ,popularna je kroz blues, rock i metal muziku.",
+      "price": 18600,
+      "image": "../img/lp-2.jpg",
+      "likes": 3,
+      "categoryId": 2,
+      "id": 3
+    },
+    {
+      "title": "Les Paul - model - Moller Germany",
+      "description": "Električna gitara (6,žica) - zvuk se pojačava električnim putem pomoću elektromagneta (pickupa), tako da električna gitara za razliku od akustične ima tijelo načinjeno od punog drva. Elektroakustična gitara je zapravo akustična gitare sa šupljim tijelom ,popularna je kroz blues, rock i metal muziku.",
+      "price": 18600,
+      "image": "../img/lp-2.jpg",
+      "likes": 3,
+      "categoryId": 2,
+      "id": 4
+    },
+    {
+      "title": "Nova akjusticna girata",
+      "description": "asdasdqjwdopqwopdkq",
+      "price": 78900,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png",
+      "likes": 0,
+      "categoryId": 1,
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acoustic Guitar"
+    },
+    {
+      "id": 2,
+      "name": "Electric Guitar"
+    },
+    {
+      "name": "gitara test",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "productId": 1,
+      "text": "Komentar 1"
+    },
+    {
+      "text": "komentAR 2",
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "text": "komentar 3",
+      "productId": 3,
+      "id": 3
+    },
+    {
+      "text": "asdfafaaaaaaaaaaaaavsbasfbbbbbbbbb",
+      "productId": 3,
+      "id": 4
+    },
+    {
+      "text": "Električna gitara (6,žica) - zvuk se pojačava električnim putem pomoću elektromagneta (pickupa), tako da električna gitara za razliku od akustične ima tijelo načinjeno od punog drva. Elektroakustična gitara je zapravo akustična gitare sa šupljim tijelom ,popularna je kroz blues, rock i metal muziku.",
+      "productId": 3,
+      "id": 5
+    },
+    {
+      "text": "efef",
+      "productId": 2,
+      "id": 6
+    },
+    {
+      "text": "asfas",
+      "productId": 2,
+      "id": 7
+    },
+    {
+      "text": "Ovo je mnogo lepo",
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "text": "ovo je mogo lepo 2",
+      "productId": 2,
+      "id": 9
+    },
+    {
+      "text": "novi kometar",
+      "productId": 4,
+      "id": 10
+    }
+  ]
+}
